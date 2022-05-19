@@ -28,8 +28,8 @@ Configuration () {
 	fi
 
 	#Check For File Naming
-	if [ ! -z ${FILENAME} ]; then
-		filename=${FILENAME}
+	if [ ! -z $FILENAME ]; then
+		filename=$FILENAME
     else
     	if [ "$USEFOLDERS" == "true" ]; then
     		filename=".mkv"
