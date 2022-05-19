@@ -1,10 +1,10 @@
 #!/usr/bin/with-contenv bash
 
 # create scripts directory if missing
-if [ ! -d "/config/scripts" ]; then
-	mkdir -p "/config/scripts"
-	cp /scripts/* /config/scripts/
-fi
+# if [ ! -d "/config/scripts" ]; then
+# 	mkdir -p "/config/scripts"
+# 	cp /scripts/* /config/scripts/
+# fi
 
 # create cache directory if missing
 if [ ! -d "/config/cache" ]; then
