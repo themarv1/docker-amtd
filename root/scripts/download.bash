@@ -373,7 +373,8 @@ DownloadTrailers () {
 						fi
 					fi
 				fi
-				outputfile="$radarrmoviepath/$sanatizethemoviedbvidename$filename"
+				# outputfile="$radarrmoviepath/$sanatizethemoviedbvidename$filename"
+				outputfile="$radarrmoviepath/$radarrmovietitle$filename"
 			fi			
 			
 			if [ -f "$outputfile" ]; then
